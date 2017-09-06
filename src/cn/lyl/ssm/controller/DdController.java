@@ -54,6 +54,7 @@ public class DdController extends BasicController<DdServc> {
 		setYsdw.addAll(templistYsdw);
 		listYsdw.addAll(setYsdw);
 		
+		
 		request.getSession().setAttribute("listYsdw",listYsdw);
 		request.getSession().setAttribute("dd", dd);
 		model.addAttribute("listYsdw",listYsdw);
